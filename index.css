@@ -1,0 +1,42 @@
+section
+{
+    position: relative;
+
+    box-sizing: border-box;
+    height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(180deg,#008aff,#ff137d) ,url("./img/istockphoto-517188688-612x612.jpg") ;
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container1
+{
+    margin: 10vh;
+}
+.container1 h1{
+    color: palevioletred;
+    font-size: 3rem;
+}
+.container1 p{
+    color: yellow;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.wave1
+{
+    position: absolute;
+    bottom: 0;
+}
+#img1
+{
+    z-index: 1000;
+    margin: 5vh;
+    height: 80vh;
+}

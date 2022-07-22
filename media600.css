@@ -1,0 +1,33 @@
+@media screen and (max-device-width:600px) 
+{
+    html
+    {
+        font-size: 40%;
+    }
+    #img1
+    {
+        width: 35rem;
+        height: 45rem;
+        margin: auto;
+    }    
+    .container2
+    {
+        display: grid;
+    }
+    .container1
+{
+    margin: 3vh;
+}
+section
+{
+    position: relative;
+
+    box-sizing: border-box;
+    height: 60vh;
+    box-sizing: border-box;
+    background: linear-gradient(180deg,#008aff,#ff137d) ,url("./img/istockphoto-517188688-612x612.jpg") ;
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
